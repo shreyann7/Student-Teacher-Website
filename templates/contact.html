@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% block title %}
+Contact
+{% endblock title %}
+
+{% block body %}
+
+<!-- banner img -->
+<div class="container-fluid px-0 py-0">
+  <img src="/static/iiitbibanner.jfif" alt=" IIIT NR HEADING " class="center" width="1600">
+</div>
+
+<!-- Contact grid  -->
+<div class="container">
+  <div class="content">
+    <h1 class="display-3"> Contact Us
+    </h1>
+    <div class="addresspart1">
+      <p>IIIT–Naya Raipur Plot No. 7, Sector 24, Near Purkhoti Muktangan, <span>Atal Nagar</span> –
+        493661&nbsp;Chhattisgarh</p>
+      <p>Tel:- (0771) 2474040</p>
+    </div>
+    <div class="addresspart2">
+      <p><strong>General Information:- &nbsp;</strong><a href="mailto:iiit.nr@gov.in"
+          title="mailto:iiit.nr@gov.in">iiitnr@iiitnr.ac.in</a></p>
+      <p><strong>B.Tech Admissions:-&nbsp;&nbsp;</strong><br><a href="http://btech_admissions@iiitnr.ac.in">btech_</a><a
+          href="mailto:iiit.nr@gov.in" title="mailto:iiit.nr@gov.in">admissions@iiitnr.ac.in</a></p>
+      <p><strong>Convocation:-<br>
+          &nbsp;</strong><a href="mailto:convocation@iiitnr.edu.in">convocation@iiitnr.edu.in</a></p>
+      <p><strong>Academic Affairs:-</strong><a href="mailto:iiit.nr@gov.in"
+          title="mailto:iiit.nr@gov.in">registrar@iiitnr.edu.in</a></p>
+      <p><strong>HR:-</strong><strong>&nbsp;</strong><a href="mailto:iiit.nr@gov.in"
+          title="mailto:iiit.nr@gov.in">recruitment@iiitnr.ac.in</a></p>
+      <p><strong>Placement</strong>:-&nbsp;<a href="http://placement@iiitnr.ac.in">placement@iiitnr.ac.in</a></p>
+      <p><strong>Ph.D. Admissions:- &nbsp;</strong><a href="mailto:iiit.nr@gov.in"
+          title="mailto:iiit.nr@gov.in">phd_admissions@iiitnr.ac.in</a></p>
+      <p><strong>M.Tech. Admissions:-&nbsp;</strong> <a href="mailto:mtech_admissions@iiitnr.ac.in">mtech</a><a
+          href="mailto:iiit.nr@gov.in" title="mailto:iiit.nr@gov.in">_admissions@iiitnr.ac.in</a></p>
+      <p><strong>Route from Raipur Railway Station to IIIT-NR: &nbsp;</strong><a
+          href="https://goo.gl/maps/99ScvLnW9aT2">https://goo.gl/maps/99ScvLnW9aT2</a></p>
+    </div>
+    <div class="addresspart3">
+      <p><strong>Route from Raipur Airport to IIIT-NR: &nbsp;</strong><a
+          href="https://goo.gl/maps/B1sLfu9iRDk">https://goo.gl/maps/B1sLfu9iRDk</a></p>
+      <p><strong>Useful Services:&nbsp; &nbsp; &nbsp;</strong></p>
+      <p><strong>OLA Cabs :</strong> (0771) 3355335</p>
+    </div>
+  </div>
+  <!-- map -->
+  
+  <div class="container">
+    <div class="mapouter">
+      <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0"
+          marginwidth="0"
+          src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=iiit naya&amp;t=k&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+          href="https://www.bgmi.org/">BGMI</a></div>
+      <style>
+        .mapouter {
+          position: relative;
+          text-align: right;
+          width: 100%;
+          height: 400px;
+        }
+
+        .gmap_canvas {
+          overflow: hidden;
+          background: none !important;
+          width: 100%;
+          height: 400px;
+        }
+
+        .gmap_iframe {
+          height: 400px !important;
+        }
+      </style>
+    </div>
+  </div>
+
+
+  <!-- Message  form-->
+   <div class="container py-5">
+    <h1 class="display-6">Send your Message</h1>
+    <div class="container">
+      <form method="post" action="/contact">
+
+        
+       <!-- {% csrf_token %}  --> {% csrf_token %}
+
+
+      <div class="form-group">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your E-mail">
+      </div>
+      <div class="form-group">
+        <label for="desc">Enter your Message</label>
+        <textarea class="form-control" id="desc" rows="3" name="desc"></textarea>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      </form>
+      </div>
+
+
+  </div>
+
+  
+  {% endblock body %}
