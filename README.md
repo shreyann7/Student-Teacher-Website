@@ -28,6 +28,10 @@ Your new HTML website will immediately have publishable and documented code, and
  - Has an inbuilt authorization system
  - Can create multiple superusers
  - A Built in Backend Data storage structure
+ - students can see results,lecture materials,attendence
+ - professor profiles with contact details so that students can contact them
+ - Institute's Club profiles
+ - Institute Facilities
  
  ### Built With
 
