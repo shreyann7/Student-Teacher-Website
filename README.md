@@ -35,7 +35,7 @@ Your new HTML website will immediately have publishable and documented code, and
 Shreyan Manher- (shreyan20100@iiitnr.edu.in)  
 Bhumit Sihag- (bhumit20100@iiitnr.edu.in)  
 Tejendra Kanwar - (tejendra20102@iiitnr.edu.in)  
-Project Link: 
+Project Link: https://github.com/shreyann7/Student-Teacher-Website
 
 
 
