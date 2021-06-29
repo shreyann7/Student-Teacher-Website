@@ -10,6 +10,12 @@
   - [ ] Make sure to save the further changes via commands ``` python manage.py make migrations ``` and ``` python manage.py migrate ```
 
 # student Teacher Website
+![Screenshot (209)](https://user-images.githubusercontent.com/86298991/123779090-6d737a80-d8ef-11eb-9fbc-3fa418894d2e.png)
+
+![Screenshot (210)](https://user-images.githubusercontent.com/86298991/123779119-75cbb580-d8ef-11eb-88f5-cb7b5b6b0537.png)
+
+![Screenshot (211)](https://user-images.githubusercontent.com/86298991/123779131-77957900-d8ef-11eb-865a-b6d1681b9680.png)
+
  
 ## Features
 
