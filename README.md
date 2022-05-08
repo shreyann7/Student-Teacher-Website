@@ -42,9 +42,7 @@ Your new HTML website will immediately have publishable and documented code, and
 
 ## Contact
 
-Shreyan Manher- (shreyan20100@iiitnr.edu.in)  
-Bhumit Sihag- (bhumit20100@iiitnr.edu.in)  
-Tejendra Kanwar - (tejendra20102@iiitnr.edu.in)  
+Shreyan Manher- (shreyan20100@iiitnr.edu.in)   
 Project Link: https://github.com/shreyann7/Student-Teacher-Website
 
 
